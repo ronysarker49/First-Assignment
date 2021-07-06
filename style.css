@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 20px;
+    border-left: 20px;
 }
 .blue-color{
     color: rgba(17, 153, 231, 0.897);
@@ -13,27 +14,31 @@ h1{
 h1{
 color: rgb(78, 78, 78);
 font-weight: 900;
-font-weight: ;
+border-left: 20px;
 }
 p{
     font-weight: 500; 
     color: gray;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
+    padding: 20px;
+    border-left: 20px;
 }
 .half-width{
     width: 50%;
     padding: 20px;
+    border-left: 20px; 
 }
 .half-width img{
     width: 70%;
+    border-left: 20px;
     
 }
 p{
-    padding-right: 200px;
+    padding-right: 20px;
 }
 .link-button{
     text-decoration: none;
@@ -42,6 +47,8 @@ p{
     color: white;
     font-weight: 900;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(172, 208, 248);
+    
     
 }
 .about-me{
@@ -49,3 +56,31 @@ p{
     background-repeat: no-repeat;
 }
 
+.recipice-item{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 50px rgb(172, 208, 248);
+    padding-left: 50px;
+    padding-right: 0px;
+    border-radius: 30px;
+    border-top: ;: 40px;
+}
+h1{
+    color: black;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.recipice-item img{
+    width: 70%;
+    border-radius: 30px;
+    margin: 20px;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    border: 200px
+}
+h1{
+    text-align-last: center;
+}
