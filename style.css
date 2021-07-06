@@ -1,5 +1,6 @@
 body{
     font-family: 'Noto Serif', serif;
+    background margin: 0;
 }
 h1{
     font-size: 20px;
@@ -21,6 +22,7 @@ p{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -42,3 +44,8 @@ p{
     border-radius: 20px;
     
 }
+.about-me{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+
