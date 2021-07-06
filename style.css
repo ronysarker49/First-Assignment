@@ -1,0 +1,44 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+h1{
+    font-size: 20px;
+}
+.blue-color{
+    color: rgba(17, 153, 231, 0.897);
+    font-weight: 900;
+    
+}
+h1{
+color: rgb(78, 78, 78);
+font-weight: 900;
+font-weight: ;
+}
+p{
+    font-weight: 500; 
+    color: gray;
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 20px;
+}
+.half-width img{
+    width: 70%;
+    
+}
+p{
+    padding-right: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(9, 119, 209), rgb(74, 199, 248));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 900;
+    border-radius: 20px;
+    
+}
